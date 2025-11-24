@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PrimeHour - Payment</title>
+    <style>
+      body {
+        background: #f3f3f3;
+        font-family: Arial;
+        padding: 30px;
+      }
+      .box {
+        width: 400px;
+        margin: auto;
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .btn {
+        background: black;
+        color: white;
+        padding: 12px;
+        width: 100%;
+        border-radius: 8px;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h2>Checkout</h2>
+
+      <label>Name</label>
+      <input type="text" placeholder="Enter full name" />
+
+      <label>Address</label>
+      <input type="text" placeholder="Enter delivery address" />
+
+      <label>Delivery Area</label>
+      <select>
+        <option>Hyderabad</option>
+        <option>Bangalore</option>
+        <option>Chennai</option>
+        <option>Mumbai</option>
+        <option>Delhi</option>
+      </select>
+
+      <label>Payment Method</label>
+      <select>
+        <option>UPI</option>
+        <option>Credit Card</option>
+        <option>Debit Card</option>
+        <option>Cash on Delivery</option>
+      </select>
+
+      <a class="btn" href="thankyou.html">Proceed to Buy</a>
+    </div>
+  </body>
+</html>
